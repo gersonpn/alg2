@@ -1,0 +1,5 @@
+Nome,Email,Idade,Score
+João da Silva,joao@example.com,30,85.5
+Maria Oliveira,maria@example.com,25,92.3
+Pedro Santos,pedro@example.com,40,78.9
+Ana Souza,ana@example.com,35,90.1
