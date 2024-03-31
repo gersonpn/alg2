@@ -1,14 +1,11 @@
-lista = []
+valores = []
 
-while len(lista) < 4:
-  n = int(input())
-  lista.append(n)
+for _ in range(4):
+    valor = int(input())
+    valores.append(valor)
 
-diferencas = []
-for i in range(len(lista) - 2):  # Ajuste para iterar até o penúltimo elemento
-    produto_anterior = lista[i] * lista[i + 1]
-    produto_atual = lista[i + 1] * lista[i + 2]
-    diferenca = produto_atual - produto_anterior
-    diferencas.append(diferenca)
+produto_AB = valores[0] * valores[1]
+produto_CD = valores[2] * valores[3]
+diferenca = produto_AB - produto_CD
 
-print(diferencas)
+print("DIFERENCA =", diferenca)
