@@ -13,4 +13,4 @@ def pagamento():
 user = vendedor()
 t = pagamento ()
 
-print(f"TOTAL = {t: .2f}")
+print(f"TOTAL = R$ {t: .2f}")
