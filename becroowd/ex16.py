@@ -7,4 +7,4 @@ def calcular_dist():
 
 n = calcular_dist()
 
-print(n)
+print(f"{n:.3f} km/l")
